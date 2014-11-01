@@ -63,16 +63,6 @@
 }
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    [...]
-    
-    [self setupCocos2dWithOptions:cocos2dSetup];
-    
-    [CCBReader load:@"Penguin"];
-    [CCBReader load:@"Seal"];
-    
-    return YES;
-}
-
 @end
+
+

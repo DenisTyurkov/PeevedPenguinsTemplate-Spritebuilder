@@ -16,8 +16,8 @@
     if (self) {
         CCLOG(@"Seal created");
     }
+    
     return self;
 }
-
 
 @end

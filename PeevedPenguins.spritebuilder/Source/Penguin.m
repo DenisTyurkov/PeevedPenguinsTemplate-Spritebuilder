@@ -16,6 +16,7 @@
     if (self) {
         CCLOG(@"Penguin created");
     }
+    
     return self;
 }
 
