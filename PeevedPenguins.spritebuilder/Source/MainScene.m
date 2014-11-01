@@ -10,7 +10,8 @@
 
 @implementation MainScene
 
-- (void)play {
+/// Replaces Menu Scene (Main) to Gameplay scene when pressed play
+-(void)play {
     CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
     [[CCDirector sharedDirector] replaceScene:gameplayScene];
 }
